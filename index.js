@@ -190,7 +190,7 @@ async function handleSendToken() {
 
 async function showMenu() {
     while (true) {
-        console.log('\n=== BOT CRYPTO ĐA MẠNG | AIRDROP HIDDEN GEM ===');
+        console.log('\n=== BOT Của Đớ Thủ ===');
         console.log('1. Tạo ví mới');
         console.log('2. Gửi token từ ví chính đến ví phụ');
         console.log('3. Thoát');
