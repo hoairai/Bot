@@ -1,0 +1,48 @@
+Chuẩn bị
+Cài Node.js trên máy tính (tải tại: https://nodejs.org).  
+
+Tạo file pk.txt chứa private key của ví chính (dùng làm nguồn gửi token).  
+
+Mở terminal, vào thư mục chứa mã, chạy:  
+
+npm install ethers axios readline fs
+node index.js
+
+Cách sử dụng
+Bot sẽ hiển thị menu:  
+Tạo ví & Nhận faucet  
+Nhập số lượng ví muốn tạo.  
+
+Bot tự tạo ví mới, nhận faucet TEA từ https://faucet-sepolia.tea.xyz/.  
+
+Có thể nhận thêm cho ví chính (nhập "có").  
+
+Ví được lưu vào wallets.txt.
+
+Chuyển token TEA  
+Chọn số lượng token: cố định hoặc ngẫu nhiên (nhập min/max).  
+
+Nhập số giao dịch và thời gian chờ giữa các lần gửi.  
+
+Bot tạo ví mới, gửi TEA từ ví chính, lưu ví vào wallets.txt.
+
+Thoát: Đóng bot.
+
+Thông tin mạng
+Tên: Tea Sepolia  
+
+Chain ID: 10218  
+
+RPC: https://tea-sepolia.g.alchemy.com/public  
+
+Symbol: TEA  
+
+Explorer: https://sepolia.tea.xyz
+
+Lưu ý
+Đảm bảo ví chính (pk.txt) có đủ TEA để chuyển.  
+
+Kiểm tra giao dịch trên explorer sau khi gửi.  
+
+Faucet có thể giới hạn, thử lại nếu thất bại.
+
