@@ -3,6 +3,7 @@ Cài Node.js trên máy tính (tải tại: https://nodejs.org).
 
 Tạo file pk1.txt chứa private key của ví 1
 Tạo file pk2.txt chứa private key của ví 2
+Thêm proxy vào file proxy.txt
 Mở terminal, vào thư mục chứa mã, chạy:  
 
 npm install ethers axios readline fs
@@ -10,22 +11,17 @@ node index.js
 
 Cách sử dụng
 Bot sẽ hiển thị menu:  
-Tạo ví
-Nhập số lượng ví muốn tạo.  
-
-Bot tự tạo ví mới  
+1:Tạo ví
+Nhập số lượng ví muốn tạo.
 Sẽ xóa ví củ trong wallets1 và wallets2 
 Bắt đầu Bot tự tạo ví mới (chọn số dương )
 Ví được tạo sẽ chia ra lưu vào wallets1.txt và wallets2.txt
-
-Chuyển token TEA  
+2:Chuyển token TEA  
 Chọn số lượng token: cố định hoặc ngẫu nhiên (nhập min/max).  
-
 Nhập số giao dịch và thời gian chờ giữa các lần gửi.  
-
-Bot tạo ví mới, gửi TEA từ ví chính, lưu ví vào wallets.txt.
-
-Thoát: Đóng bot.
+Chọn ví pk1 hoặc pk2
+Nhập c để dùng proxy
+3:Deploy
 
 Thông tin mạng
 Tên: Tea Sepolia  
